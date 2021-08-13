@@ -1,6 +1,10 @@
 {
   "name": "svg-rowing-blades",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnwalley/svg-rowing-blades.git"
+  },
   "scripts": {
     "dev": "next",
     "build": "next build",
