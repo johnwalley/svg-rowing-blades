@@ -76,7 +76,7 @@ const IndexPage = () => {
         className="grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-4 sm:gap-x-6 lg:grid-cols-6 xl:gap-x-8"
       >
         {filteredClubs.map((club) => (
-          <Link href={`club/${club}`}>
+          <Link key={club} href={`club/${club}`}>
             <a>
               <li key={club} className="relative">
                 <div className="group block w-full aspect-w-10 aspect-h-7 rounded-lg bg-gray-100 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-offset-gray-100 focus-within:ring-pink-500 overflow-hidden">
