@@ -1,6 +1,6 @@
 import * as React from "react";
 
-import Blade, { clubs, shortNames } from "react-rowing-blades";
+import { Blade, clubs, shortNames } from "react-rowing-blades";
 
 import Layout from "../components/Layout";
 import Link from "next/link";

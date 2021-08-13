@@ -1,4 +1,4 @@
-import Blade, { names } from "react-rowing-blades";
+import { Blade, names } from "react-rowing-blades";
 
 import { useRouter } from "next/router";
 import React from "react";
